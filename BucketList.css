@@ -1,0 +1,64 @@
+.bucket-list {
+  margin: 20px;
+  background-color: #6E6F74;
+  width: 800px;
+  margin-left: 350px;
+  justify-content: space-evenly;
+  padding: 20px;
+
+}
+
+.bucket-list h2 {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  color: #94CE5F;
+}
+
+.bucket-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.bucket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: cadetblue;
+  color: white;
+}
+
+.bucket-details {
+  flex: 1;
+}
+
+.bucket-name {
+  font-size: 30px;
+  margin: 0;
+}
+
+.bucket-description {
+  font-size: 16px;
+  margin: 0;
+  color: #666;
+}
+
+.delete-bucket-btn {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete-bucket-btn:hover {
+  background-color: #d32f2f;
+}
